@@ -1,0 +1,249 @@
+
+
+.baris1{
+  height: 650px;
+}
+.baris2{
+  height: 1500px;
+}
+
+.iklan{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  box-sizing: border-box;
+}
+
+.carousel{
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+}
+
+.carousel-item{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+.carousel-item img{
+  position: absolute;
+  margin-left: 25%;
+  margin-right: auto;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.nav-bar{
+  margin-top: 16.3%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BB2649;
+}
+li{
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+
+
+.cards{
+  width: 800px;
+  height: 550px;
+  /* border: 2px solid rgba(150, 139, 139, 0.65); */
+  border-top-style: none;
+  /* border-color: #968B8B; */
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+  float: left;
+  box-shadow: 1px  1px 8px #CCCCCC, -1px -1px 8px #CCCCCC;
+}
+.cards h3{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.cards p{
+  margin-left: 20px;
+  text-align: justify;
+  width: 750px;
+}
+
+.cards2{
+  width: 400px;
+  height: 420px;
+  /* border: 2px solid rgba(150, 139, 139, 0.65); */
+  border-top-style: none;
+  /* border-color: #968B8B; */
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  float: left;
+  box-shadow: 1px  1px 8px #CCCCCC, -1px -1px 8px #CCCCCC;
+}
+.cards2 h5{
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.cards2 p{
+  text-align: justify;
+  padding: 10px;
+}
+.cards2 button{
+  text-align: center;
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  background-color: #009556;
+  font-family: 'Crete Round';
+  cursor: pointer;
+}
+
+
+
+.filter{
+  width: 250px;
+  height: 300px;
+  /* border:2px solid rgba(150, 139, 139, 0.65); */
+  box-shadow: 1px  1px 5px #CCCCCC, -1px -1px 5px #CCCCCC;
+  margin-right: 150px;
+  margin-top: 150px;
+  float: right;
+  border-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.judul{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  background-color: #BB2649;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.judul p{
+  margin-top: 7px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: 'Poppins';
+}
+
+.cards button{
+  margin-left: 20px;
+  width: 100px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background-color: #009556;
+  font-family: 'Crete Round';
+}
+
+.next-prev{
+  border: 1px solid black;
+  width: 295px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: none;
+}
+.next-prev button{
+  float: left;
+  border: none;
+  /* border-top-style: none;
+  border-left-style: none;
+  border-bottom-style: */
+}
+
+/* div{
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+} */
+
+footer{
+  background-color: #414141;
+  height: 300px;
+}
+
+.sekawan img{
+  float: left;
+  margin-top: 50px;
+  /* background-color: black; */
+}
+.penjelasan{
+  width: 350px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.penjelasan p{
+  text-align: justify;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.information{
+  float: left;
+  margin-left: 100px;
+  width: 200px;margin-top: 100px;
+}
+
+.informations {
+  background-color: #414141;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.kolom1{
+  width: 500px;
+  height: 300px;
+  /* border: 2px solid black; */
+  float:left;
+}
+.kontak-person{
+  margin-top: 80px;
+  width: 300px;
+  /* border: 1px solid black; */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #414141;
+}
+.kontak{
+  background-color: #414141;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+}

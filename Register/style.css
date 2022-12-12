@@ -1,0 +1,100 @@
+body{
+  background-image: url("background-color.png");
+}
+
+.kanan{
+  width: 50%;
+  height: 760px;
+  float: right;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.kiri{
+  float: left;
+}
+
+.logo img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 15%
+}
+.judul img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* div{
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+} */
+
+h1{
+  text-align: center;
+  padding-top: 10%;
+  font-family:'Roboto'
+}
+
+.form label{
+  font-family: 'Ruda'
+}
+
+.form input{
+  margin-bottom: 20px;
+  border-color: #64C661;
+  border-radius: 8px;
+  width: 500px;
+  height: 40px;
+  border-style: solid;
+}
+
+.form{
+  width: 70%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+button{
+  background-color: #007A95;
+  border: none;
+  color: white;
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Sign-up{
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 960px){
+  body{
+      width: 100%;
+  }
+
+  .kanan{
+    width: 100%;
+    height: 100%;
+    float: none;
+  }
+
+  .form{
+    width: 25%;
+    float: none;
+    padding-right: 35%;
+  }
+
+  .kiri{
+    width: 100%;
+    height: 100%;
+    float: none;
+  }
+}
