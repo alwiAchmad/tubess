@@ -1,0 +1,381 @@
+.header{
+  border-bottom: 3px solid #D0D0D0;
+  width: 100%;
+  height: 70px;
+}
+
+.info-page{
+  width: 306px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.titik1{
+  width: auto;
+  position: absolute;
+  top: 23px;
+  left: 671px;
+}
+.titik2{
+  width: auto;
+  position: absolute;
+  left: 774px;
+  top:23px;
+}
+.titik2 p{
+  line-height: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #938B8B;
+}
+.titik1 p{
+  line-height: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+
+.approfment{
+  float: left;
+  width: 100px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Inter';
+  color: #938B8B;
+}
+.Payment{
+  float: left;
+  width: 100px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Inter';
+  color: red;
+}
+.address{
+  color: red;
+  float: left;
+  width: 100px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Inter'
+}
+
+.wadah{
+  border: 1px solid white;
+  width: 70.7%;
+  height: 510px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.container{
+  float: left;
+  border: 1px solid #BB2649;
+  width: 200px;
+  height: 70px;
+  border-bottom: 2px solid white;
+}
+.container2{
+  float: left;
+  border: 1px solid #D9D9D9;
+  border-bottom: 1px solid #BB2649;
+  width: 200px;
+  height: 70px;
+  margin-left: 200px;
+  background-color: #D9D9D9;
+}
+.container3{
+  float: right;
+  border: 1px solid #D9D9D9;
+  background-color: #D9D9D9;
+  border-bottom: 1px solid #BB2649;
+
+  /* margin-left: 246px; */
+  width: 200px;
+  height: 70px;
+}
+.e-wallet{
+  border: 1px solid #BB2649;
+  width: 1062px;
+  height:430px;
+  margin-top: 71px;
+}
+.foto{
+  /* border: 1px solid black; */
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.foto-credit{
+  margin-top: 10px;
+}
+.tulisan{
+  /* border: 1px solid black; */
+  height: 30px;
+  float: left;
+  line-height: 0px;
+  margin-top: 7px;
+  margin-left: 10px;
+  font-family: Poppins;
+  color: #A19B9B;
+}
+.foto img{
+  float: left;
+}
+.foto-credit img{
+  float: left;
+  width: 40px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.kiri{
+  /* float: left; */
+  /* margin-top: 10px; */
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+
+.price-detail{
+  border: 3px solid #26CF37;
+  border-radius: 25px;
+  width: 450px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%
+}
+
+.judul{
+  /* border: 1px solid black; */
+  font-weight: bold;
+  font-family: 'Inter';
+  margin-left: 20px;
+  line-height: 0px;
+}
+
+.rincian1{
+  /* border: 1px solid black; */
+  height: 50px;
+  margin-top: 50px;
+}
+.rincian2{
+  /* border: 1px solid black; */
+  height: 20px;
+  /* margin-top: 30px; */
+  /* margin-bottom: 10px; */
+}
+.item{
+  float: left;
+  /* border: 1px solid black; */
+  height: 20px;
+  line-height: 0px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Inter';
+}
+.price-item{
+  float: right;
+  /* border: 1px solid black; */
+  line-height: 0px;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'Inter';
+  margin-right: 10px;
+
+}
+.total{
+  width: 100;
+  border-top: 3px dashed black;
+  margin-top: 45px;
+}
+.item-total{
+  float: left;
+  height: 20px;
+  font-weight: bold;
+  font-family: 'Inter';
+  font-size: 18px;
+  margin-left: 20px;
+  line-height: 25px;
+
+}
+.total-price{
+  float: right;
+  font-weight: bold;
+  font-family: 'Inter';
+  font-size: 15px;
+  margin-right: 10px;
+  line-height: 25px;
+}
+
+.kanan{
+  /* border: 1px solid black; */
+  width: 500px;
+  float: right;
+  height: 400px;
+  position: absolute;
+  right: 240px;
+  top: 270px;
+}
+.label{
+  /* border: 1px solid black; */
+  font-weight: bold;
+  font-family: 'Inter';
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 110px;
+  color: #A1A1A1;
+}
+.payment-method{
+  width: 230px;
+  height: 220px;
+  margin-top: 10px;
+  margin-left: 100px;
+  border: 3px solid #26CF37;
+  border-radius: 23px;
+}
+.gopay{
+  /* border: 1px solid black; */
+  height: 30px;
+  margin-top: 40px;
+}
+.radio-gopay{
+  float: left;
+  /* border: 1px solid black; */
+  line-height: 0px;
+}
+.radio-gopay input{
+  width: 25px;
+  height: 25px;
+}
+.logo-gopay{
+  float: left;
+  margin-left: 30px;
+}
+
+.shoppepay{
+  /* border: 1px solid black; */
+  height: 30px;
+  margin-top: 30px;
+}
+.radio-shoppe{
+  float: left;
+  /* border: 1px solid black; */
+  line-height: 0px;
+}
+.radio-shoppe input{
+  width: 25px;
+  height: 25px;
+}
+.logo-shoppe{
+  float: left;
+  margin-left: 30px;
+}
+
+.dana{
+  /* border: 1px solid black; */
+  height: 30px;
+  margin-top: 30px;
+}
+.radio-dana{
+  float: left;
+  /* border: 1px solid black; */
+  line-height: 0px;
+}
+.radio-dana input{
+  width: 25px;
+  height: 25px;
+}
+.logo-dana{
+  float: left;
+  margin-left: 30px;
+}
+
+.pay{
+  width: 150px;
+  height: 38px;
+  margin-left: 140px;
+  margin-top: 25px;
+}
+.pay button{
+  border: none;
+  color: white;
+  background-color: #009556;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: 'Inter';
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer{
+  background-color: #414141;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: -300px;
+  left: 0px;
+}
+
+.sekawan img{
+  float: left;
+  margin-top: 50px;
+  /* background-color: black; */
+}
+.penjelasan{
+  width: 350px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.penjelasan p{
+  text-align: justify;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.information{
+  float: left;
+  margin-left: 100px;
+  width: 200px;margin-top: 100px;
+}
+
+.informations {
+  background-color: #414141;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.kolom1{
+  width: 500px;
+  height: 300px;
+  /* border: 2px solid black; */
+  float:left;
+}
+.kontak-person{
+  margin-top: 80px;
+  width: 300px;
+  /* border: 1px solid black; */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #414141;
+}
+.kontak{
+  background-color: #414141;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+}

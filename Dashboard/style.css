@@ -1,0 +1,310 @@
+.kiri{
+  width: 20%;
+  background-color: #BB2649;
+  height: 760px;
+  float: left;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.judul{
+  font-family: 'Crete Round';
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+
+.dashboard button{
+  width: 90%;
+  height: 40px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: auto;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.button{
+  margin-top: 10px;
+}
+
+.dashboard p{
+  padding-left: 10px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  line-height: 0px;
+  text-align: left;
+}
+
+.profile{
+  width: 100%;
+  /* border-top-color: white; */
+  border-top-width: 2px;
+  /* border-top-style: solid; */
+  height: 90px;
+  position: absolute;
+  bottom: 0px;
+}
+.setting{
+  width: 100%;
+  border-top-color: white;
+  border-top-width: 2px;
+  border-top-style: solid;
+  height: 90px;
+  position: absolute;
+  bottom: 95px;
+}
+
+.foto img{
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-left: 5px;
+  float: left;
+}
+
+.nama{
+  float: left;
+  padding-left: 40px;
+  padding-top: 25px;
+  font-family: 'Inter';
+  color: white;
+}
+.nama a{
+  color: white;
+}
+
+.logout button{
+  float: left;
+  background-color: #BB2649;
+  border: none;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.nama-setting{
+  float: left;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-top: 30px;
+  font-family: 'Inter';
+  color: white;
+}
+
+.kanan{
+  float: right;
+  width: 80%;
+  height: auto;
+}
+
+.judul2{
+  font-family: 'Crete Round';
+  margin-left: 10px;
+  width: 20%;
+  float: left;
+}
+
+.search{
+  float: right;
+  /* background-color: #ECE8E8; */
+  height: 34px;
+  margin-top: 40px;
+  width: 262.5px;
+  margin-right: 50px;
+  border-radius: 8px
+}
+
+.atas{
+  height: 150px;
+}
+
+.search input{
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-width: 0.5px;
+  width: 200px;
+  height: 30px;
+  background-color: #ECE8E8;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+  border-style: none;
+  /* border-style: none; */
+  font-size: 15px;
+  float: left;
+}
+
+.search button{
+  height: 32px;
+  cursor: pointer;
+  background-color: #009556;
+  color: white;
+  border-style: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 13px;
+  float: left;
+  /* border-style: none; */
+}
+
+
+.baris2{
+  float: right;
+  width: 100%;
+  height: auto;
+}
+
+.container{
+  width: 220px;
+  height: 110px;
+  float: left;
+  margin-left: 120px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06), 0px 1px 3px rgba(16, 24, 40, 0.1);
+  cursor: pointer;
+}
+
+.barang{
+  margin-left: 5px;
+  color: #667085;
+  font-size: 20px;
+  font-family: 'Inter';
+  cursor: pointer;
+  /* font-weight: 500; */
+}
+.jumlah{
+  margin-left: 40%;
+  font-size: 50px;
+  font-family: 'Inter';
+  color:black;
+  cursor: pointer;
+}
+
+.pcs{
+  float: right;
+  margin-right: 30px;
+  font-size: 20px;
+  font-family: 'Inter';
+  margin-top: 30px;
+  color: #667085;
+  cursor: pointer;
+}
+
+/* div{
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+} */
+
+.bawah{
+  width: 100%;
+  height: 500px;
+}
+
+.recent-assets{
+  width: auto;
+  height: 30px;
+  margin-top: 120px;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+.container2{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.container3{
+  height: 200px;
+  float: left;
+  width: 300px;
+  margin-left: 0px;
+}
+.container4{
+  width: 305px;;
+  height: 400px;
+  float: left;
+  margin-left: 70px;
+}
+.link{
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.olahraga{
+  font-weight: bold;
+  font-family: 'Inter';
+  margin-left: 8px;
+}
+.tema{
+  float: right;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: 'Inter'
+}
+.tanggal{
+  font-family: 'Inter';
+  margin-left: 8px;
+}
+
+.blur{
+  padding-top: 5px;
+  color: white;
+  align-self: stretch;
+  position: absolute;
+  height: 70px;
+  width: 300px;
+  top: 132px;
+  left: 5.8%;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+.blur2{
+  padding-top: 5px;
+  color: white;
+  align-self: stretch;
+  position: absolute;
+  height: 70px;
+  width: 300px;
+  top: 132px;
+  left: 37%;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+.blur3{
+  padding-top: 5px;
+  color: white;
+  align-self: stretch;
+  position: absolute;
+  height: 70px;
+  width: 301px;
+  top: 132px;
+  left: 68.2%;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+
+@media screen and (max-width: 960px){
+  body{
+      width: 100%;
+  }
+
+  .kiri{
+      width: 100%;
+      float: none;
+  }
+
+  .kanan{
+      width: 100%;
+      float: none;
+  }
+
+}
