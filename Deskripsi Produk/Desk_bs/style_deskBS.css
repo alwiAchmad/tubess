@@ -1,0 +1,70 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    z-index: 1;
+}
+
+.imght{
+    position: absolute;
+    width: 523px;
+    height: 600px;
+    left: 400px;
+    top: 150px;
+}
+
+.pesan{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1250px;
+    top: 790px;
+    background-color: #128C7E;
+    color: white;
+}
+
+.nama_produk{
+    position: absolute;
+    left: 30px;
+    top: 790px;
+}
+
+.konten{
+    height: 1000px;
+}
+
+footer{
+    position:;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width : 750px) {
+
+    .imght{
+        position: absolute;
+        width: 523px;
+        height: 600px;
+        left: 90px;
+        top: 100px;
+    }
+
+    .nama_produk{
+        position: absolute;
+        left: 30px;
+        top: 730px;
+    }
+    
+    .pesan{
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 250px;
+        top: 980px;
+        background-color: #128C7E;
+        color: white;
+    }
+}

@@ -1,0 +1,100 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+}
+
+.kon1{
+    width: 100%;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+}
+
+.kon1_kiri{
+    width: 30%;
+    height: 550px;
+    left: 50px;
+    top: 150px;
+    position: absolute;
+}
+
+.kon1_tengah{
+    width: 30%;
+    height: 550px;
+    left: 500px;
+    top: 150px;
+    position: absolute;
+}
+
+.kon1_kanan{
+    width: 30%;
+    height: 550px;
+    left: 950px;
+    top: 150px;
+    position: absolute
+}
+
+.img_ht{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    left: 60px;
+}
+
+.img_pro{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.img_kursi{
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    left: 75px;
+}
+
+.desk_ht{
+    position: absolute;
+    left: 140Px;
+    top: 400px;
+}
+
+.desk_pro{
+    position: absolute;
+    left: 140Px;
+    top: 400px;
+}
+
+.desk_kursi{
+    position: absolute;
+    left: 140Px;
+    top: 400px;
+}
+
+.konten{
+    height: 1350px;
+}
+
+
+footer{
+    position:;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width : 750px) {
+
+    .konten{
+        height: 1250px;
+    }
+}
