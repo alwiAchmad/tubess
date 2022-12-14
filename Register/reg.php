@@ -9,26 +9,26 @@
   </head>
   <body>
     <div class="kanan">
-      <form class="" action="on-click" method="post">
+      <form class="" action="registercontroller.php" method="post">
         <h1>CREATE YOUR ACOUNT</h1>
         <div class="form" method="get">
           <label for="">Full Name</label><br>
           <input type="text" name="nama" id="name_user"><br>
 
           <label for="">Email address</label><br>
-          <input type="text" name="email" id="email"><br>
+          <input type="email" name="email" id="email"><br>
 
           <label for="">Phone Number</label><br>
-          <input type="number" name="notelp" id="telp"><br>
+          <input type="text" name="notelp" id="telp"><br>
 
           <label for="">Password</label><br>
           <input type="password" name="password" id="pass"><br>
-
+          
           <label for="">Confirm Password</label><br>
           <input type="password" name="con_pass" id="pass2"><br>
 
-          <a href="file:///D:/KULYEAH/SMESTER%203/tubes/Login/index.html"><button type="button" name="button">Login</button></a>
-          <a href="#"><button type="button" class="Sign-up">Register</button></a>
+          <a href="../login/index.php"><button type="button" name="button">Login</button></a>
+          <a href="#"><button type="submit" class="Sign-up">Register</button></a>
       </form>
       </div>
     </div>

@@ -13,15 +13,21 @@
       </div>
       <div class="background-putih">
         <div class="form">
-          <form class="" action="on-click" method="post">
-            <label>Username</label><br>
-            <input type="text"><br>
+          <form class="" action="loginController.php" method="post">
+
+            <label>Email</label><br>
+            <input type="email" name="email">
+            <br>
+
             <label>Password</label><br>
-            <input type="password"><br>
+            <input type="password" name="password">
+            <br>
+
             <button type="button" name="button" class="google"> <img src="logo-google.svg"> </button>
             <button type="button" name="button"  class="apple"> <img src="logo-apple.svg"> </button><br>
-            <a href="file:///D:/KULYEAH/SMESTER%203/tubes/Dashboard/dashboard.html"><button type="button" name="button" class="login">Login</button><br></a>
-            <a href="file:///D:/KULYEAH/SMESTER%203/tubes/Register/index.html"><button type="button" name="button" class="sign-up">sign up</button></a>
+            <a href="#"><button type="submit" name="login" value="login" class="login">Login</button><br></a>
+            <a href="../Register/reg.php"><button type="button" name="button" class="sign-up">sign up</button></a>
+            
           </form>
         </div>
       </div>
