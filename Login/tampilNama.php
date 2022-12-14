@@ -7,7 +7,8 @@ if(!isset($_SESSION['status'])){
 ?>
 <?php
 
-if(! $_SESSION['status']){
+if(! $_SESSI
+ON['status']){
     echo "<p>PERTAMA</p>";
     echo ($_SESSION['nama']);
 }else{
