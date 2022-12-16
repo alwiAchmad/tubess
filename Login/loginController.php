@@ -17,11 +17,11 @@ if(isset($_POST['login'])){
                 $_SESSION['email'] = $email;
                 if($data['usertype'] == "admin"){
                     $_SESSION['status'] = "login admin sukses";
-                    header("location:../../tes.html");
+                    header("location:../../tubess/Dashboard/dashboard.html");
                 }
                 else{
                     $_SESSION['status'] = "login sukses";
-                    header("location:tampilNama.php");
+                    header("location:../../tubess/Dashboard/dashboard.html");
                 }
             
             }else{

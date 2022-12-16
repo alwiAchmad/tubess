@@ -1,0 +1,191 @@
+.kiri{
+  width: 20%;
+  background-color: #BB2649;
+  height: 100%;
+  float: left;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.judul{
+  font-family: 'Crete Round';
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+
+.dashboard button{
+  width: 90%;
+  height: 40px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: auto;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.button{
+  margin-top: 10px;
+}
+
+.dashboard p{
+  padding-left: 10px;
+  font-family: 'Poppins';
+  font-weight: bold;
+  line-height: 0px;
+  text-align: left;
+}
+
+.profile{
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  bottom: 0px;
+}
+.setting{
+  width: 100%;
+  border-top-color: white;
+  border-top-width: 2px;
+  border-top-style: solid;
+  height: 90px;
+  position: absolute;
+  bottom: 95px;
+}
+
+.foto img{
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-left: 5px;
+  float: left;
+}
+
+.nama{
+  float: left;
+  padding-left: 40px;
+  padding-top: 25px;
+  font-family: 'Inter';
+  color: white;
+}
+.nama a{
+  color: white;
+}
+
+.logout button{
+  float: left;
+  background-color: #BB2649;
+  border: none;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.nama-setting{
+  float: left;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-top: 30px;
+  font-family: 'Inter';
+  color: white;
+}
+
+.kanan{
+  float: right;
+  width: 80%;
+  height: auto;
+}
+
+.judul2{
+  font-family: 'Crete Round';
+  margin-left: 10px;
+  width: 20%;
+  float: left;
+}
+
+.search{
+  float: right;
+  height: 34px;
+  margin-top: 40px;
+  width: 262.5px;
+  margin-right: 50px;
+  border-radius: 8px
+}
+
+.atas{
+  height: 150px;
+}
+
+.tabel{
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 20px;
+}
+.tabel td,th{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  height: 30px;
+  border-right: 2px solid black;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+@media screen and (min-width : 750px){
+  .kiri{
+    width: 30%;
+    background-color: #BB2649;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  .kanan{
+    float: right;
+    width: 70%;
+    height: auto;
+  }
+
+  .atas{
+    height: 250px;
+  }
+
+  .judul2{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width : 400px){
+  .kiri{
+    width: 30%;
+    background-color: #BB2649;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  .kanan{
+    float: right;
+    width: 70%;
+    height: auto;
+  }
+
+  .atas{
+    height: 250px;
+  }
+
+  .judul2{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+}
